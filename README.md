@@ -5,7 +5,7 @@ Romans 6:4 Therefore we are buried with him by baptism into death: that like as 
 
 Kainotes is a greek word that is translated "newness" in the new testament. 
 
-Bullinger defines it as "fresh, new, never contaminated" like pulling off the plastic of a brand-new MacBook. 💻
+Bullinger defines it as "fresh, new, never contaminated"🌿🌿 like pulling off the plastic of a brand-new MacBook. 💻
 
 My thought behind this app is to simply add more word daily into our lives, reminding us to walk in newness of life. 
 
