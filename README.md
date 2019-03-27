@@ -1,11 +1,15 @@
 # Kainotes
 > Daily bible verse app. 
 
-Kanotes is a gree word that is translated "newness" in the new testament. 
+kainoteß is a greek word that is translated "newness" in the new testament. 
+
+Romans 6:4 Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness [kainotes] of life.
+
+Strongs defines kainotes as "in the new state of life in which the Holy Spirit places us so as to produce a new state which is eternal life"
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+
 
 
 ## Release History
