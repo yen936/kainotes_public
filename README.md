@@ -20,5 +20,5 @@ A few motivating and useful examples of how your product can be used. Spice this
 
 If you have a favorite verse that you would like to add, open an issue. 
 
-Thank you guys! Built with love.
+Thank you guys! Built with love ❤️ 
 
