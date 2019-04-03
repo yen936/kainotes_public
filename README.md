@@ -1,5 +1,5 @@
 # Kainotes
-> Daily bible verse app. 
+> Daily bible verse app. Build with verse from Our Identity, and Maturity in Chirst courses.  
 
 Romans 6:4 Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness [kainotes] of life.
 
