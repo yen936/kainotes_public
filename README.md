@@ -13,10 +13,6 @@ My thought behind this app is to simply add more word daily into our lives, remi
 
 ![alt text](https://github.com/yen936/kainotes_public/blob/master/kainotes_black.png)
 
-![alt text](https://github.com/yen936/kainotes_public/blob/master/kainotes_white.png)
-
-
-
 ## Release History
 
 * 0.0.2 
