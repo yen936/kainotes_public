@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF5F4A7224C3B6C00FF799B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5F4A6224C3B6C00FF799B /* AppDelegate.swift */; };
+		3DF5F4A9224C3B6C00FF799B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5F4A8224C3B6C00FF799B /* MainViewController.swift */; };
+		3DF5F4AC224C3B6C00FF799B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5F4AA224C3B6C00FF799B /* Main.storyboard */; };
+		3DF5F4AF224C3B6C00FF799B /* kainotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5F4AD224C3B6C00FF799B /* kainotes.xcdatamodeld */; };
+		3DF5F4B1224C3B6D00FF799B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5F4B0224C3B6D00FF799B /* Assets.xcassets */; };
+		3DF5F4B4224C3B6D00FF799B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5F4B2224C3B6D00FF799B /* LaunchScreen.storyboard */; };
+		65E65FF8302FFE751127B41C /* Pods_kainotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350DEF3345918FBC8B81BDB /* Pods_kainotes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DF5F4A3224C3B6C00FF799B /* kainotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kainotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF5F4A6224C3B6C00FF799B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DF5F4A8224C3B6C00FF799B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3DF5F4AB224C3B6C00FF799B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF5F4AE224C3B6C00FF799B /* kainotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kainotes.xcdatamodel; sourceTree = "<group>"; };
+		3DF5F4B0224C3B6D00FF799B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DF5F4B3224C3B6D00FF799B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DF5F4B5224C3B6D00FF799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6350DEF3345918FBC8B81BDB /* Pods_kainotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kainotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEE2919D94C47EB5F495939 /* Pods-kainotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kainotes.release.xcconfig"; path = "Target Support Files/Pods-kainotes/Pods-kainotes.release.xcconfig"; sourceTree = "<group>"; };
+		FFCFFD4AF7BC1217E671B8FA /* Pods-kainotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kainotes.debug.xcconfig"; path = "Target Support Files/Pods-kainotes/Pods-kainotes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF5F4A0224C3B6C00FF799B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E65FF8302FFE751127B41C /* Pods_kainotes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF5F49A224C3B6C00FF799B = {
+			isa = PBXGroup;
+			children = (
+				3DF5F4A5224C3B6C00FF799B /* kainotes */,
+				3DF5F4A4224C3B6C00FF799B /* Products */,
+				8954106F0BB680FC484C4FDB /* Pods */,
+				8EDF4FBFB4B7C75F6D24C9C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF5F4A4224C3B6C00FF799B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5F4A3224C3B6C00FF799B /* kainotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF5F4A5224C3B6C00FF799B /* kainotes */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5F4A6224C3B6C00FF799B /* AppDelegate.swift */,
+				3DF5F4B5224C3B6D00FF799B /* Info.plist */,
+				3DF5F4BB224C3B7300FF799B /* View */,
+				3DF5F4BC224C3B7800FF799B /* Controller */,
+				3DF5F4BD2252905500FF799B /* Model */,
+			);
+			path = kainotes;
+			sourceTree = "<group>";
+		};
+		3DF5F4BB224C3B7300FF799B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5F4AA224C3B6C00FF799B /* Main.storyboard */,
+				3DF5F4B2224C3B6D00FF799B /* LaunchScreen.storyboard */,
+				3DF5F4B0224C3B6D00FF799B /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DF5F4BC224C3B7800FF799B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5F4A8224C3B6C00FF799B /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DF5F4BD2252905500FF799B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5F4AD224C3B6C00FF799B /* kainotes.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8954106F0BB680FC484C4FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFCFFD4AF7BC1217E671B8FA /* Pods-kainotes.debug.xcconfig */,
+				7AEE2919D94C47EB5F495939 /* Pods-kainotes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EDF4FBFB4B7C75F6D24C9C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6350DEF3345918FBC8B81BDB /* Pods_kainotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF5F4A2224C3B6C00FF799B /* kainotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF5F4B8224C3B6D00FF799B /* Build configuration list for PBXNativeTarget "kainotes" */;
+			buildPhases = (
+				BE94B705F7037C87E1B519BB /* [CP] Check Pods Manifest.lock */,
+				3DF5F49F224C3B6C00FF799B /* Sources */,
+				3DF5F4A0224C3B6C00FF799B /* Frameworks */,
+				3DF5F4A1224C3B6C00FF799B /* Resources */,
+				A22DBD8F02EAF2C2506737C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kainotes;
+			productName = kainotes;
+			productReference = 3DF5F4A3224C3B6C00FF799B /* kainotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF5F49B224C3B6C00FF799B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Biblical Education LLC";
+				TargetAttributes = {
+					3DF5F4A2224C3B6C00FF799B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 3DF5F49E224C3B6C00FF799B /* Build configuration list for PBXProject "kainotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF5F49A224C3B6C00FF799B;
+			productRefGroup = 3DF5F4A4224C3B6C00FF799B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF5F4A2224C3B6C00FF799B /* kainotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF5F4A1224C3B6C00FF799B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF5F4B4224C3B6D00FF799B /* LaunchScreen.storyboard in Resources */,
+				3DF5F4B1224C3B6D00FF799B /* Assets.xcassets in Resources */,
+				3DF5F4AC224C3B6C00FF799B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A22DBD8F02EAF2C2506737C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kainotes/Pods-kainotes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kainotes/Pods-kainotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE94B705F7037C87E1B519BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kainotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF5F49F224C3B6C00FF799B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF5F4A9224C3B6C00FF799B /* MainViewController.swift in Sources */,
+				3DF5F4A7224C3B6C00FF799B /* AppDelegate.swift in Sources */,
+				3DF5F4AF224C3B6C00FF799B /* kainotes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DF5F4AA224C3B6C00FF799B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF5F4AB224C3B6C00FF799B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DF5F4B2224C3B6D00FF799B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF5F4B3224C3B6D00FF799B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF5F4B6224C3B6D00FF799B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DF5F4B7224C3B6D00FF799B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF5F4B9224C3B6D00FF799B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCFFD4AF7BC1217E671B8FA /* Pods-kainotes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kainotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biblicaleducationllc.kainotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF5F4BA224C3B6D00FF799B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEE2919D94C47EB5F495939 /* Pods-kainotes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kainotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biblicaleducationllc.kainotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF5F49E224C3B6C00FF799B /* Build configuration list for PBXProject "kainotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF5F4B6224C3B6D00FF799B /* Debug */,
+				3DF5F4B7224C3B6D00FF799B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF5F4B8224C3B6D00FF799B /* Build configuration list for PBXNativeTarget "kainotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF5F4B9224C3B6D00FF799B /* Debug */,
+				3DF5F4BA224C3B6D00FF799B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3DF5F4AD224C3B6C00FF799B /* kainotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3DF5F4AE224C3B6C00FF799B /* kainotes.xcdatamodel */,
+			);
+			currentVersion = 3DF5F4AE224C3B6C00FF799B /* kainotes.xcdatamodel */;
+			path = kainotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3DF5F49B224C3B6C00FF799B /* Project object */;
+}
