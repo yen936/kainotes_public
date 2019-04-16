@@ -11,6 +11,9 @@ My thought behind this app is to simply add more word daily into our lives, remi
 
 ## Usage example
 
+![alt text](https://github.com/yen936/kainotes_public/blob/master/kainotes_black.png)
+
+![alt text](https://github.com/yen936/kainotes_public/blob/master/kainotes_white.png)
 
 
 
