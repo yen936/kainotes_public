@@ -5,7 +5,8 @@ import random
 import time
 import schedule
 
-client = MongoClient("mongodb+srv://admin:admin@cluster0-2hqg5.mongodb.net/test?retryWrites=true")
+#My MongoClient URI removed
+client = MongoClient()
 db = client.test
 collection = db.verses_collection
 
@@ -27,16 +28,6 @@ def get_verse_of_today():
 
 
 def change_verse_of_day():
-    # Original setup
-    #
-    # today_number = random.randint(1, collection.count_documents({}))
-    # collection.update_one(
-    #     {"number": today_number},
-    #     {"$set": {"today": "yes"}})
-
-    # cursor = collection.find_one({"today": "yes"})
-    # print(cursor)
-
     collection.find_one({"today": "yes"})
 
     collection.update_one(
