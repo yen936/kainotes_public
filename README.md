@@ -11,6 +11,8 @@ My thought behind this app is to simply add more word daily into our lives, remi
 
 ## Usage example
 
+Every day at 6:00 AM EST a new verse will be available.  
+
 ![alt text](https://github.com/yen936/kainotes_public/blob/master/kainotes_black.png)
 
 ## Release History
