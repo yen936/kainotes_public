@@ -33,7 +33,7 @@ class MainViewController: UIViewController {
     
     
     func getVerse()  {
-        let url = "https://nameless-savannah-98644.herokuapp.com/verse"
+        let url = //Add your networking URI
         Alamofire.request(url, method: .get).responseJSON { response in
             if response.result.isSuccess {
                 let verseJSON = JSON(response.result.value!)
