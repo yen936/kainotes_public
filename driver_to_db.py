@@ -5,7 +5,7 @@ import random
 import time
 import schedule
 
-#My MongoClient URI removed
+#Insert your MongoClient URI
 client = MongoClient()
 db = client.test
 collection = db.verses_collection
