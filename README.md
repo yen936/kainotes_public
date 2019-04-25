@@ -1,6 +1,6 @@
 # Kainotes
-> Daily bible verse app. Collection of verse used in the Our Identity, and Maturity in Christ courses. Kainotes' purpose is to spur thoughts of God's word.
-> An iOS app built in Swift with a Flask backend utilizing Mongo DB 
+> Daily bible verse iOS app built in Swift with a Flask backend utilizing Mongo DB 
+
 Romans 6:4 Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness [kainotes] of life.
 
 Kainotes is a greek word that is translated "newness" in the new testament. 
@@ -16,6 +16,9 @@ Every day at 6:00 AM EST a new verse will be available.
 ![alt text](https://github.com/yen936/kainotes_public/blob/master/kainotes_black.png)
 
 ## Release History
+
+* 0.0.3 
+    * Adding logo and UI update
 
 * 0.0.2 
      * Expanding Verse collection
