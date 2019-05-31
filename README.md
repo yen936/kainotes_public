@@ -1,6 +1,9 @@
 # Kainotes
 > Daily bible verse iOS app built in Swift with a Flask backend utilizing Mongo DB 
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 Romans 6:4 Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness [kainotes] of life.
 
 Kainotes is a greek word that is translated "newness" in the new testament. 
